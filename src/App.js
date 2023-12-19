@@ -11,7 +11,7 @@ import { useState } from 'react';
 import SearchDetails from './components/SearchDetails';
 import SearchPageFooter from './components/SearchPageFooter';
 import React from 'react';
-import { useId } from 'react';
+import { useId } from '@chakra-ui/react';
 
 function PasswordField() {
   const passwordHintId = useId();
@@ -30,6 +30,8 @@ function PasswordField() {
     </>
   );
 }
+export default Password Field;
+
 
 
 function App() {
