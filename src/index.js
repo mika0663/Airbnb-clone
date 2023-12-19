@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react'
 import { Provider } from 'react-redux';
 import store from './redux/State';
-import { useId } from '@chakra-ui/react';
+import { useId } from 'react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
