@@ -30,7 +30,7 @@ function PasswordField() {
     </>
   );
 }
-export default Password Field;
+export default PasswordField;
 
 
 
