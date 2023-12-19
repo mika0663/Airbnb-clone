@@ -14,10 +14,6 @@ import React from 'react';
 import { useId } from '@chakra-ui/react';
 
 
-export default MyComponent;
-
-
-
 function App() {
   const [open, setOpen] = useState(false);
 
