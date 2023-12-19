@@ -13,27 +13,6 @@ import SearchPageFooter from './components/SearchPageFooter';
 import React from 'react';
 import { useId } from '@chakra-ui/react';
 
-function PasswordField() {
-  const passwordHintId = useId();
-  return (
-    <>
-      <label>
-        Password:
-        <input
-          type="password"
-          aria-describedby={passwordHintId}
-        />
-      </label>
-      <p id={passwordHintId}>
-        The password should contain at least 18 characters
-      </p>
-    </>
-  );
-}
-export default PasswordField;
-
-
-
 function App() {
   const [open, setOpen] = useState(false);
 
