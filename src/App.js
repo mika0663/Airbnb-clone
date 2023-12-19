@@ -10,6 +10,23 @@ import Checkout from './components/Checkout';
 import { useState } from 'react';
 import SearchDetails from './components/SearchDetails';
 import SearchPageFooter from './components/SearchPageFooter';
+import React from 'react';
+import { useId } from '@chakra-ui/react';
+
+const MyComponent = () => {
+  // Using useId to generate a unique ID
+  const uniqueId = useId();
+
+  return (
+    <div>
+      <label htmlFor={uniqueId}>Username:</label>
+      <input type="text" id={uniqueId} />
+    </div>
+  );
+};
+
+export default MyComponent;
+
 
 
 function App() {
